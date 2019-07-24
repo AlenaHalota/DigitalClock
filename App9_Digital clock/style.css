@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+}
+
+.clock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+	font-size: 80px;
+	border: 1px solid #ccc;
+	padding: 0px 5px 0px 5px;
+	font-family: 'Geostar Fill', cursive;
+	font-weight: bold;
+}
